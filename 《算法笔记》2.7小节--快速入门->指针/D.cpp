@@ -1,4 +1,3 @@
-//没出来
 #include "cstdio"
 #include "cstring"
 void swap(char a[], char b[])
