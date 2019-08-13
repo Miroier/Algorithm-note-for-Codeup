@@ -4,7 +4,7 @@ char max(int a[])
     int maxIndex = 0;
     for (int i = 0; i < 3; i++)
     {
-        if (a[i] >= a[maxIndex]) //这里>=就可以保证输出字典序最小的解
+        if (a[i] >= a[maxIndex]) //这里>=就可以保证输出字典序最小的解，因为JCB刚好是逆序
             maxIndex = i;
     }
     if (maxIndex == 0)
